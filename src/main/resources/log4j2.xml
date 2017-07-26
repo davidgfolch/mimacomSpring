@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="[resttest] [%-5level] %d [%t] [%c{1.}] %x [%X{pulseid}] - %m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<logger name="org.springframework.web" level="debug" />
+
+		<logger name="org.springframework.messaging" level="debug" />
+		<logger name="org.springframework.session" level="debug" />
+
+		<logger name="org.springframework.security" level="debug" />
+
+
+		<Root level="info">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>
