@@ -1,4 +1,5 @@
 # mimacomSpring
+Related project: https://github.com/davidgfolch/mimacomNg
 ## Download
 git clone git@github.com:davidgfolch/mimacomSpring.git
 ## Install and execute
