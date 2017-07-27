@@ -2,6 +2,7 @@
 ## Download
 git clone git@github.com:davidgfolch/mimacomSpring.git
 ## Install and execute
+cd into mimacomSpring folder
 ### Linux
 ./gradlew bootRun
 ### Windows
